@@ -1,0 +1,80 @@
+; Define plots to go through                                                 
+<plottitle = 'FieldA 1, DST1 RECOMB' >
+	<subplot, exp = 2, title = 'CCE Relative Volume', x =  'Pres', y = 'Rel Vol'>
+	<subplot, exp = 2, title = 'CCE Gas Den (kg/m3)', x =  'Pres', y = 'Gas Den (kg/m3)'>
+	;<subplot, exp = 3, title = 'Gas Vis (cp)', x =  'Pres', y = 'Gas Vis (cp)'>
+</plot>    
+          
+<plottitle = 'FieldA 1, DST4 RECOMB' >
+	<subplot, exp = 5, title = 'CCE Relative Volume', x =  'Pres', y = 'Rel Vol'>
+	<subplot, exp = 5, title = 'CCE Gas Den (kg/m3)', x =  'Pres', y = 'Gas Den (kg/m3)'> 
+    <subplot, exp = 5, title = 'CCE Liq Sat', x =  'Pres', y = 'Liq Sat'>
+	<subplot, exp = 6, title = 'CVD Rel Mass Rem (g)', x =  'Pres', y = 'Rel Mass Rem (g)'>
+	<subplot, exp = 6, title = 'CVD Liq Sat', x =  'Pres', y = 'Liq Sat'>
+	<subplot, exp = 6, title = 'CVD Gas Den (kg/m3)', x =  'Pres', y = 'Gas Den (kg/m3)'>
+	<subplot, exp = 6, title = 'CVD Gas Z-Factor', x =  'Pres', y = 'Gas Z-Factor'>
+</plot>                                         
+                                                                             
+<plottitle = 'FieldA 4, L303-A1348'>
+	<subplot, exp = 8, title = 'CCE Relative Volume', x =  'Pres', y = 'Rel Vol'>
+	<subplot, exp = 8, title = 'CCE Gas Z-Factor', x =  'Pres', y = 'Gas Z-Factor'>
+	<subplot, exp = 8, title = 'CCE Liq Vol (bbl)', x =  'Pres', y = 'Liq Vol (bbl)'>
+	<subplot, exp = 9, title = 'CVD Gas Removed (scf)', x =  'Pres', y = 'Removed (MMscf)'>
+	<subplot, exp = 9, title = 'CVD Gas Z-Factor', x =  'Pres', y = 'Gas Z-Factor'>
+	<subplot, exp = 9, title = 'CVD Z-Factor', x =  'Pres', y = 'Z-Factor'>    
+	<subplot, exp = 9, title = 'CVD Liq Vol (bbl)', x =  'Pres', y = 'Liq Vol (bbl)'>
+</plot>                                 
+             
+<plottitle = 'FieldB 1X DST6'>
+	<subplot, exp = 10, title = 'CCE Relative Volume', x =  'Pres', y = 'Rel Vol'>
+	<subplot, exp = 10, title = 'CCE Gas Z-Factor', x =  'Pres', y = 'Gas Z-Factor'>
+	<subplot, exp = 11, title = 'CVD Gas Removed (scf)', x =  'Pres', y = 'Removed (MMscf)'>
+	<subplot, exp = 11, title = 'CVD Gas Z-Factor', x =  'Pres', y = 'Gas Z-Factor'>
+	<subplot, exp = 11, title = 'CVD Z-Factor', x =  'Pres', y = 'Z-Factor'>    
+	<subplot, exp = 11, title = 'CVD Liq Rel Vol (%)', x =  'Pres', y = 'Liq Rel Vol (%)'>
+</plot>   
+
+<plottitle = 'FieldB 2X DST2'>
+	<subplot, exp = 12, title = 'CCE Relative Volume at 66 deg F', x =  'Pres', y = 'Rel Vol'>
+	<subplot, exp = 12, title = 'CCE Gas Z-Factor at 66 deg F', x =  'Pres', y = 'Gas Z-Factor'>
+	<subplot, exp = 13, title = 'CCE Relative Volume at 160 deg F', x =  'Pres', y = 'Rel Vol'>
+	<subplot, exp = 13, title = 'CCE Gas Z-Factor at 160 deg F', x =  'Pres', y = 'Gas Z-Factor'>
+	<subplot, exp = 14, title = 'CCE Relative Volume at 241 deg F', x =  'Pres', y = 'Rel Vol'>
+	<subplot, exp = 14, title = 'CCE Gas Z-Factor at 241 deg F', x =  'Pres', y = 'Gas Z-Factor'>
+	<subplot, exp = 15, title = 'CVD Gas Removed (scf)', x =  'Pres', y = 'Removed (MMscf)'>
+	<subplot, exp = 15, title = 'CVD Gas Z-Factor', x =  'Pres', y = 'Gas Z-Factor'>
+	<subplot, exp = 15, title = 'CVD Z-Factor', x =  'Pres', y = 'Z-Factor'>    
+	<subplot, exp = 15, title = 'CVD Liq Rel Vol (%)', x =  'Pres', y = 'Liq Rel Vol (%)'>
+</plot>    
+
+<plottitle = 'FieldB 2X DST3'>
+	<subplot, exp = 17, title = 'CCE Relative Volume', x =  'Pres', y = 'Rel Vol'>
+	<subplot, exp = 17, title = 'CCE Gas Z-Factor', x =  'Pres', y = 'Gas Z-Factor'>
+	<subplot, exp = 19, title = 'CVD Gas Removed (scf)', x =  'Pres', y = 'Removed (MMscf)'>
+	<subplot, exp = 19, title = 'CVD Gas Z-Factor', x =  'Pres', y = 'Gas Z-Factor'>
+	<subplot, exp = 19, title = 'CVD Liq Rel Vol (%)', x =  'Pres', y = 'Liq Rel Vol (%)'>
+</plot>   
+
+;<plottitle = 'FieldB 3X DST4'>
+;	<subplot, exp = 20, title = 'CCE Relative Volume', x =  'Pres', y = 'Rel Vol'>
+;	<subplot, exp = 21, title = 'CVD Liq Rel Vol (%)', x =  'Pres', y = 'Liq Rel Vol (%)'>
+;</plot>  
+
+<plottitle = 'FieldB 3X DST4A'>
+	<subplot, exp = 22, title = 'CCE Relative Volume', x =  'Pres', y = 'Rel Vol'>
+	<subplot, exp = 22, title = 'CCE Gas Z-Factor', x =  'Pres', y = 'Gas Z-Factor'>
+	<subplot, exp = 23, title = 'CVD Gas Removed (scf)', x =  'Pres', y = 'Removed (MMscf)'>
+	<subplot, exp = 23, title = 'CVD Gas Z-Factor', x =  'Pres', y = 'Gas Z-Factor'>
+	<subplot, exp = 23, title = 'CVD Z-Factor', x =  'Pres', y = 'Z-Factor'>    
+	<subplot, exp = 23, title = 'CVD Liq Vol (bbl)', x =  'Pres', y = 'Liq Vol (bbl)'>
+</plot>
+
+<plottitle = 'FieldC 1A, DST2'>
+	<subplot, exp = 26, title = 'CCE Relative Volume', x =  'Pres', y = 'Rel Vol'>
+	<subplot, exp = 26, title = 'CCE Gas Z-Factor', x =  'Pres', y = 'Gas Z-Factor'>
+	<subplot, exp = 26, title = 'CCE Liq Vol (bbl)', x =  'Pres', y = 'Liq Vol (bbl)'>
+	<subplot, exp = 27, title = 'CVD Gas Removed (scf)', x =  'Pres', y = 'Removed (MMscf)'>
+	<subplot, exp = 27, title = 'CVD Gas Z-Factor', x =  'Pres', y = 'Gas Z-Factor'>
+	<subplot, exp = 27, title = 'CVD Z-Factor', x =  'Pres', y = 'Z-Factor'>    
+	<subplot, exp = 27, title = 'CVD Liq Vol (bbl)', x =  'Pres', y = 'Liq Vol (bbl)'>
+</plot>
